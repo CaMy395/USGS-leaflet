@@ -1,4 +1,4 @@
-import { config } from "/config.js";
+import { config } from "./config.js";
 
 // Two overlay groups
 var earthquakeLayer = new L.layerGroup();
