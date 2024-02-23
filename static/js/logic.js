@@ -78,7 +78,7 @@ function bindPopUp(feature, layer) {
     layer.bindPopup(`Location: ${feature.properties.place} <br> Magnitude: ${feature.properties.mag} <br> Depth: ${feature.geometry.coordinates[2]}`);
 }
 
-// The link to get the Earthquak GeoJSON data
+// The link to get the Earthquake GeoJSON data
 var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 // Getting the GeoJSON data
